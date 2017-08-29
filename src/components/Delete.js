@@ -6,7 +6,8 @@ export default class Delete extends React.Component {
     this.deleteConfirm = this.deleteConfirm.bind(this);
   }
   deleteConfirm(){
-    if(confirm("Are you sure you want to delete your " + this.props.recipe.name + " recipe?")){
+    var yes = confirm("Are you sure you want to delete your " + this.props.recipe.name + " recipe?");
+	if(yes){
       this.props.delete(this.props.recipe.key);
     }
   }
