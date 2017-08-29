@@ -1,6 +1,6 @@
 {
   "name": "recipebox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recipe Box App",
   "main": "main.js",
   "scripts": {
